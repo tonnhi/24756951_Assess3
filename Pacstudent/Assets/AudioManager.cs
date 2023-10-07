@@ -2,26 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource introBackgroundMusic;
-    public AudioSource normalStateBackgroundMusic;
-
+    [SerializeField] AudioClip[] clips; // drag and add audio clips in the inspector
+    AudioSource audioSource;
     void Start()
     {
-        introBackgroundMusic.Play();
+        audioSource = GetComponent<AudioSource>();
     }
-
-    void Update()
+    public void ChangeTheSound(int clipIndex) // the index of the sound, 0 for first sound, 1 for the 2nd..etc
     {
-        if (!introBackgroundMusic.isPlaying && !normalStateBackgroundMusic.isPlaying)
-        {
-            // Your logic to determine when the transition should happen
-            /* Your condition for the transition */
-            {
-                introBackgroundMusic.Stop();
-                normalStateBackgroundMusic.Play();
-            }
-        }
+        // use one desired logic
+        // this will make only one sound to play without interruption
+        audioSource.clip = clips[clipIndex];
+        audioSource.Play();
+
+        // this will make multiple sound to play with interruption
+        audioSource.PlayOneShot(clips[clipIndex]);
     }
 }
