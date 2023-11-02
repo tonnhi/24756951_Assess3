@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: pelletTile
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 0}
-  m_DefaultGameObject: {fileID: 0}
-  m_DefaultColliderType: 2
+  m_DefaultGameObject: {fileID: 2486201941868972683, guid: 3ba95ba38df4d44abacaabbcf4cd6b38, type: 3}
+  m_DefaultColliderType: 0
   m_TilingRules: []
