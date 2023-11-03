@@ -4016,7 +4016,6 @@ GameObject:
   m_Component:
   - component: {fileID: 579514760}
   - component: {fileID: 579514759}
-  - component: {fileID: 579514758}
   m_Layer: 0
   m_Name: ghostopusflashing
   m_TagString: Untagged
@@ -4024,23 +4023,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &579514758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579514757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19a5cd75b1cc4de6ba069d6157827b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 66117f2d962024d7d94199763e7017bb, type: 3}
-  - {fileID: 21300000, guid: 607e49cdb40ea428ca6f0b94d4d9f3e8, type: 3}
-  animationTime: 0.25
-  loop: 1
 --- !u!212 &579514759
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4119,7 +4101,6 @@ GameObject:
   - component: {fileID: 628909003}
   - component: {fileID: 628909002}
   - component: {fileID: 628909004}
-  - component: {fileID: 628909005}
   m_Layer: 0
   m_Name: Pacfish
   m_TagString: Untagged
@@ -4214,24 +4195,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &628909005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628909001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19a5cd75b1cc4de6ba069d6157827b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: bafc480b63d994cfd839f3455023c640, type: 3}
-  - {fileID: 21300000, guid: 59dbf529cdb5d427a9cb9a07dcc7a570, type: 3}
-  - {fileID: 21300000, guid: 680fa166edf4544219657820b351356d, type: 3}
-  animationTime: 0.25
-  loop: 1
 --- !u!1 &678559636
 GameObject:
   m_ObjectHideFlags: 0
@@ -5852,7 +5815,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1403137607}
   - component: {fileID: 1403137609}
-  - component: {fileID: 1403137608}
   m_Layer: 0
   m_Name: PacfishDead
   m_TagString: Untagged
@@ -5875,28 +5837,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1403137608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403137606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19a5cd75b1cc4de6ba069d6157827b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: ef39e51dd90294170888c014b41b5aa5, type: 3}
-  - {fileID: 21300000, guid: f3119cb7a311e43e0ae3965579539c09, type: 3}
-  - {fileID: 21300000, guid: 6cd4ed2660f2c44d4b6f54c19777c133, type: 3}
-  - {fileID: 21300000, guid: 09e2308ec8d254781a619897b1df696b, type: 3}
-  - {fileID: 21300000, guid: 025022d250fa9489bb20e5c6ec4ce36e, type: 3}
-  - {fileID: 21300000, guid: 9a9688cbf761148bd94fef35308b6740, type: 3}
-  - {fileID: 21300000, guid: 367e1a884d49942cb9475464f6b3cb42, type: 3}
-  animationTime: 0.25
-  loop: 1
 --- !u!212 &1403137609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7321,7 +7261,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1566805109}
   - component: {fileID: 1566805108}
-  - component: {fileID: 1566805107}
   m_Layer: 0
   m_Name: ghostopusScared
   m_TagString: Untagged
@@ -7329,23 +7268,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1566805107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566805106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19a5cd75b1cc4de6ba069d6157827b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 50d44d0d63e88438393bf23f49056278, type: 3}
-  - {fileID: 21300000, guid: 607e49cdb40ea428ca6f0b94d4d9f3e8, type: 3}
-  animationTime: 0.25
-  loop: 1
 --- !u!212 &1566805108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7423,7 +7345,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1688608036}
   - component: {fileID: 1688608035}
-  - component: {fileID: 1688608037}
   m_Layer: 0
   m_Name: PowPellet
   m_TagString: Untagged
@@ -7498,24 +7419,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1688608037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688608034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19a5cd75b1cc4de6ba069d6157827b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 589c9a3359e8c4ee7a0b4a17080cbe70, type: 3}
-  - {fileID: 21300000, guid: e7afeb3be93894c55906d615fddb943a, type: 3}
-  - {fileID: 21300000, guid: cbfbbd6c43d3a428ab95202106f1ad41, type: 3}
-  animationTime: 0.25
-  loop: 1
 --- !u!1 &1914434003
 GameObject:
   m_ObjectHideFlags: 0
