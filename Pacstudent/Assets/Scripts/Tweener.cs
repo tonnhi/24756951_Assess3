@@ -57,4 +57,18 @@ public class Tweener : MonoBehaviour
         }
         return false;
     }
+
+    public void EndTween(Transform target)
+    {
+        Tween targetTween = null;
+        foreach (Tween t in activeTweens)
+        {
+            if (t.Target == target)
+            {
+                targetTween = t;
+            }
+        }
+        if(targetTween != null) activeTweens.Remove(targetTween);
+    }
 }
+
